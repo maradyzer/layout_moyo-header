@@ -1,18 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
+:root {
   --blue-color: #00acdc;
 }
 
 html {
   font-family: Roboto, sans-serif;
   font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -25,6 +26,8 @@ header {
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
 .nav__link {
@@ -78,6 +81,6 @@ header {
   justify-content: space-between;
 }
 
-.nav__link:first-child {
+.nav__list li:first-child .nav__link {
   margin-left: 0;
 }
